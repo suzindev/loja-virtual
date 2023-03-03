@@ -6,9 +6,9 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "categoria")
+@Table(name = "permissao")
 @Data
-public class Categoria {
+public class Permissao {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
